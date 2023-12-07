@@ -8,7 +8,7 @@ import dryFruits from "../../assets/Home-products/dry-fruits.png";
 import healthySnacks from "../../assets/Home-products/fruit-bowl-dry-fruits.png";
 import fruitBowl from "../../assets/Home-products/fruit-bowl.png";
 import onDemandSnacks from "../../assets/Home-products/on-demand-snacks.png";
-import PrivilegeMeal from "../../assets/Home-products/privilege-meal.png";
+import PrivilegeMeal from "../../assets/Home-products/Privilege-meal.png";
 import Snacks from "../../assets/Home-products/snacks.png";
 import StandardMeals from "../../assets/Home-products/standard-meal.png";
 
