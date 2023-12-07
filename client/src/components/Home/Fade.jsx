@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 
 import voltoffice from "../../assets/office/voltoffice.png";
-import insnapoffice from "../../assets/office/insnapoffice.png";
+import insnapoffice from "../../assets/office/Insnapoffice.png";
 import nightshift from "../../assets/office/nightshift.png";
 import voltnightshift from "../../assets/office/voltnightshift.png";
 
