@@ -10,7 +10,7 @@ import Facebook from "../../assets/icons/FacebookIcon.png";
 import Twitter from "../../assets/icons/TwitterIcon.png";
 import Instagram from "../../assets/icons/Instagram.png";
 import Youtube from "../../assets/icons/YoutubeIcon.png";
-import LinkedIn from "../../assets/icons/LinkdInIcon.png";
+import LinkedIn from "../../assets/icons/LinkdinIcon.png";
 
 const ContactComponent = () => {
   return (
