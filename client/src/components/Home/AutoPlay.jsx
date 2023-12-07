@@ -8,12 +8,12 @@ import volt from "../../assets/Logo/CustomerLogo/Volt.png";
 import Insnap from "../../assets/Logo/CustomerLogo/Insnap.png";
 import BoltEarth from "../../assets/Logo/CustomerLogo/BoltEarth.png";
 import Practo from "../../assets/Logo/CustomerLogo/practo.png";
-import Clayworks from "../../assets/Logo/CustomerLogo/clayworks.png";
+import Clayworks from "../../assets/Logo/CustomerLogo/Clayworks.png";
 import Keploy from "../../assets/Logo/CustomerLogo/Keploy.png";
 import Trigsy from "../../assets/Logo/CustomerLogo/trigsy.png";
 import Nasscom from "../../assets/Logo/CustomerLogo/Nasscom.png";
 import Fampay from "../../assets/Logo/CustomerLogo/Fampay.png";
-import newtral from "../../assets/Logo/CustomerLogo/newtral.png";
+import newtral from "../../assets/Logo/CustomerLogo/Newtral.png";
 
 export default class autoplay extends Component {
   render() {
