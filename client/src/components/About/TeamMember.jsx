@@ -1,5 +1,5 @@
 import React from "react";
-import PD from "../../assets/About/PD.jpeg";
+import PD from "../../assets/About/pd.jpeg";
 // import TwitterIcon from "../../assets/socialIcons/twitter.png";
 // import LinkedInIcon from "../../assets/socialIcons/linkedin.png";
 // import GithubIcon from "../../assets/socialIcons/github.png";
