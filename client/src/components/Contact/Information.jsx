@@ -4,7 +4,7 @@ import ContactIcon from "../../assets/icons/ContactIcon.png";
 import Location from "../../assets/icons/Location.png";
 import WhatsAppIcon from "../../assets/icons/WhatsAppIcon.png";
 import EmailIcon from "../../assets/icons/EmailIcon.png";
-import LinkedIn from "../../assets/icons/LinkdInIcon.png";
+import LinkedIn from "../../assets/icons/LinkdinIcon.png";
 import Instagram from "../../assets/icons/Instagram.png";
 import Youtube from "../../assets/icons/YoutubeIcon.png";
 import Twitter from "../../assets/icons/TwitterIcon.png";
