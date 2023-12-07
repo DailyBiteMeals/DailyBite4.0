@@ -10,7 +10,7 @@ import fruitBowl from "../../assets/Home-products/fruit-bowl.png";
 import onDemandSnacks from "../../assets/Home-products/on-demand-snacks.png";
 import PrivilegeMeal from "../../assets/Home-products/Privilege-meal.png";
 import Snacks from "../../assets/Home-products/snacks.png";
-import StandardMeals from "../../assets/Home-products/standard-meal.png";
+import StandardMeals from "../../assets/Home-products/Standard-meal.png";
 
 const CardSection = () => {
   const cardData = [
