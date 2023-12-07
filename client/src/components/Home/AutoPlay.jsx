@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // logo images
-import volt from "../../assets/Logo/CustomerLogo/volt.png";
+import volt from "../../assets/Logo/CustomerLogo/Volt.png";
 import Insnap from "../../assets/Logo/CustomerLogo/Insnap.png";
 import BoltEarth from "../../assets/Logo/CustomerLogo/BoltEarth.png";
 import Practo from "../../assets/Logo/CustomerLogo/practo.png";
