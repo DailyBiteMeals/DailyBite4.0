@@ -22,7 +22,7 @@ export default class autoplay extends Component {
       { src: volt },
       { src: Insnap },
       { src: BoltEarth },
-      { src: Practo },
+      // { src: Practo },
       { src: Clayworks },
       { src: Keploy },
       { src: Trigsy },
