@@ -11,7 +11,7 @@ import BoltEarth from "../../assets/Logo/CustomerLogo/BoltEarth.png";
 import Practo from "../../assets/Logo/CustomerLogo/Practo.png";
 import Clayworks from "../../assets/Logo/CustomerLogo/Clayworks.png";
 import Keploy from "../../assets/Logo/CustomerLogo/Keploy.png";
-import Trigsy from "../../assets/Logo/CustomerLogo/Trigsy.png";
+// import Trigsy from "../../assets/Logo/CustomerLogo/Trigsy.png";
 import Nasscom from "../../assets/Logo/CustomerLogo/Nasccom.png";
 import Fampay from "../../assets/Logo/CustomerLogo/Fampay.png";
 import newtral from "../../assets/Logo/CustomerLogo/Newtral.png";
