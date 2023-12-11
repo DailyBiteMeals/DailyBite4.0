@@ -25,7 +25,7 @@ export default class autoplay extends Component {
       // { src: Practo },
       { src: Clayworks },
       { src: Keploy },
-      { src: Trigsy },
+      // { src: Trigsy },
       { src: Nasscom },
       { src: Fampay },
       { src: newtral },
