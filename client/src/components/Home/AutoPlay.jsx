@@ -8,7 +8,7 @@ import volt from "../../assets/Logo/CustomerLogo/Volt.png";
 import Insnap from "../../assets/Logo/CustomerLogo/Insnap.png";
 import BoltEarth from "../../assets/Logo/CustomerLogo/BoltEarth.png";
 // import Practo from "../../assets/Logo/CustomerLogo/Practo.png";
-import Practo from "../../assets/Logo/CustomerLogo/Practo.png";
+// import Practo from "../../assets/Logo/CustomerLogo/Practo.png";
 import Clayworks from "../../assets/Logo/CustomerLogo/Clayworks.png";
 import Keploy from "../../assets/Logo/CustomerLogo/Keploy.png";
 // import Trigsy from "../../assets/Logo/CustomerLogo/Trigsy.png";
