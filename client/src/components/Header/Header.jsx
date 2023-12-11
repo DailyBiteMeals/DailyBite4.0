@@ -44,7 +44,7 @@ function Header() {
                   className={({ isActive }) =>
                     ` ${
                       isActive ? "text-mainOrange" : "text-gray-900"
-                    } block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-mainOrange active:text-mainOrange md:p-0`
+                    } block py-2 pr-4 pl-3 duration-200 border-b border-DailyBiteGray hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-mainOrange active:text-mainOrange md:p-0`
                   }
                   onClick={closeMobileMenu}
                 >
@@ -59,7 +59,7 @@ function Header() {
                   className={({ isActive }) =>
                     ` ${
                       isActive ? "text-mainOrange" : "text-gray-900"
-                    } block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-mainOrange active:text-mainOrange md:p-0`
+                    } block py-2 pr-4 pl-3 duration-200 border-b border-DailyBiteGray hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-mainOrange active:text-mainOrange md:p-0`
                   }
                   onClick={closeMobileMenu}
                 >
@@ -74,7 +74,7 @@ function Header() {
                   className={({ isActive }) =>
                     ` ${
                       isActive ? "text-mainOrange" : "text-gray-900"
-                    } block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-mainOrange active:text-mainOrange md:p-0`
+                    } block py-2 pr-4 pl-3 duration-200 border-b border-DailyBiteGray hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-mainOrange active:text-mainOrange md:p-0`
                   }
                   onClick={closeMobileMenu}
                 >
@@ -89,7 +89,7 @@ function Header() {
                   className={({ isActive }) =>
                     ` ${
                       isActive ? "text-mainOrange" : "text-gray-900"
-                    } block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-mainOrange active:text-mainOrange md:p-0`
+                    } block py-2 pr-4 pl-3 duration-200 border-b border-DailyBiteGray hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-mainOrange active:text-mainOrange md:p-0`
                   }
                   onClick={closeMobileMenu}
                 >
@@ -97,20 +97,20 @@ function Header() {
                 </NavLink>
               </li>
 
-              <li>
+              {/* <li>
                 <NavLink
                   to="/blogs"
                   activeClassName="text-mainOrange"
                   className={({ isActive }) =>
                     ` ${
                       isActive ? "text-mainOrange" : "text-gray-900"
-                    } block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-mainOrange active:text-mainOrange md:p-0`
+                    } block py-2 pr-4 pl-3 duration-200 border-b border-DailyBiteGray hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-mainOrange active:text-mainOrange md:p-0`
                   }
                   onClick={closeMobileMenu}
                 >
                   Blogs
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

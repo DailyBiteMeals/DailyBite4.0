@@ -82,7 +82,7 @@ const CardSection = () => {
         {cardData.slice(0, 4).map((card, index) => (
           <div
             key={index}
-            className={`w-full flex-auto w-32 lg:w-1/4 ${
+            className={` w-40 lg:w-1/4 ${
               index !== 3 ? "lg:pr-4 " : ""
             } pr-2 mb-2 lg:mb-4 items-stretch relative`}
           >
@@ -114,7 +114,7 @@ const CardSection = () => {
         {cardData.slice(4, 9).map((card, index) => (
           <div
             key={index}
-            className={`w-full flex-auto w-32 lg:w-1/5 ${
+            className={`w-40 lg:w-1/5 ${
               index !== 4 ? "pr-2 lg:pr-4 " : ""
             } mb-2 lg:mb-4 items-stretch relative`}
           >

@@ -28,21 +28,37 @@ export default class Fade extends Component {
         {" "}
         {/* Ensure the parent container is full-width and centers its content */}
         <div style={sliderStyle}>
-          <Slider {...settings} className="rounded-lg shadow">
+          <Slider {...settings}>
             <div>
-              <img src={voltoffice} alt="" className="w-full bg-" />{" "}
+              <img
+                src={voltoffice}
+                alt=""
+                className="w-full object-cover rounded-lg"
+              />{" "}
               {/* Adjust image width */}
             </div>
             <div>
-              <img src={insnapoffice} alt="" className="w-full" />{" "}
+              <img
+                src={insnapoffice}
+                alt=""
+                className="w-full object-cover rounded-lg"
+              />{" "}
               {/* Adjust image width */}
             </div>
             <div>
-              <img src={nightshift} alt="" className="w-full" />{" "}
+              <img
+                src={nightshift}
+                alt=""
+                className="w-full object-cover rounded-lg"
+              />{" "}
               {/* Adjust image width */}
             </div>
             <div>
-              <img src={voltnightshift} alt="" className="w-full" />{" "}
+              <img
+                src={voltnightshift}
+                alt=""
+                className="w-full object-cover rounded-lg"
+              />{" "}
               {/* Adjust image width */}
             </div>
           </Slider>

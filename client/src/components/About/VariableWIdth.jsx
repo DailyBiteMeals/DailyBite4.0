@@ -5,11 +5,11 @@ import Slider from "react-slick";
 import volt from "../../assets/Logo/CustomerLogo/Volt.png";
 import Insnap from "../../assets/Logo/CustomerLogo/Insnap.png";
 import BoltEarth from "../../assets/Logo/CustomerLogo/BoltEarth.png";
-import Practo from "../../assets/Logo/CustomerLogo/practo.png";
+import Practo from "../../assets/Logo/CustomerLogo/Practo.png";
 import Clayworks from "../../assets/Logo/CustomerLogo/Clayworks.png";
 import Keploy from "../../assets/Logo/CustomerLogo/Keploy.png";
 import Trigsy from "../../assets/Logo/CustomerLogo/trigsy.png";
-import Nasscom from "../../assets/Logo/CustomerLogo/Nasscom.png";
+import Nasscom from "../../assets/Logo/CustomerLogo/Nasccom.png";
 import Fampay from "../../assets/Logo/CustomerLogo/Fampay.png";
 import newtral from "../../assets/Logo/CustomerLogo/Newtral.png";
 
@@ -42,14 +42,14 @@ export default class VariableWidth extends Component {
     };
 
     return (
-      <div className="overflow-x-hidden py-10">
+      <div className="flex flex-col justify-center items-center overflow-x-hidden py-5 lg:py-5">
         <Slider {...settings}>
           {images.map((image, index) => (
             <div key={index} style={{ width: image.width }}>
               <img
                 src={image.src}
                 alt={`Image ${index + 1}`}
-                className="px-6"
+                className="w-60 px-8 py-4 lg:w-80 lg:p-5"
               />
             </div>
           ))}

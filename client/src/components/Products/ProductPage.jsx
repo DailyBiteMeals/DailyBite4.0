@@ -131,50 +131,55 @@ const ProductPage = () => {
   }, []);
 
   return (
-    <div className="container px-20 py-20">
-      <div className="flex justify-center ">
-        <div className="flex-1 w-1/2">
+    <div className="container px-4 py-4 lg:px-20 lg:py-20">
+      <div className="flex flex-col lg:flex-row justify-center ">
+        <div className="flex-1 w-full lg:w-1/2">
           <Slider {...sliderSettings}>
             {product.images.map((image, index) => (
               <div key={index}>
                 <img
                   src={image}
                   alt={`Product ${index + 1}`}
-                  className="w-full h-80 object-cover rounded-md"
+                  className="w-full h-60 lg:h-80 object-cover rounded-md"
                 />
               </div>
             ))}
           </Slider>
         </div>
-        <div className="flex-1 w-1/2">
-          <div className="px-4 rounded-md">
-            <p className="text-base font-InterSemiBold text-DailyBiteGray">
+        <div className="flex-1 w-full lg:w-1/2">
+          <div className="px-2 lg:px-4 rounded-md">
+            <p className="text-sm lg:text-base font-InterSemiBold text-DailyBiteGray">
               {product.category}
             </p>
-            <h3 className="text-4xl font-ExtraCondensedBlack text-DailybiteDarkChocolaty">
+            <h3 className="text-2xl lg:text-4xl font-ExtraCondensedBlack text-DailybiteDarkChocolaty">
               {product.title}
             </h3>
-            <p className="text-base font-InterMedium mb-4">
+            <p className="text-sm mb-2 lg:text-base font-InterMedium lg:mb-4">
               {product.description}
             </p>
-            <p className="text-base font-InterSemiBold">
+            <p className="text-sm lg:text-base font-InterSemiBold">
               {product.title} Contains :
             </p>
-            <p className="text-base font-InterMedium">{product.includes}</p>
+            <p className="text-sm lg:text-base font-InterMedium">
+              {product.includes}
+            </p>
             <button
-              className="bg-mainOrange hover:bg-DailyBiteDarkChocolaty text-white py-2 px-8 text-xl font-InterSemiBold rounded mt-4"
+              className="bg-mainOrange hover:bg-DailyBiteDarkChocolaty text-white py-2 px-2 text-sm mt-2 lg:py-2 lg:px-8 lg:text-xl font-InterSemiBold rounded lg:mt-4"
               onClick={handleOrderNow}
             >
               Order Now
             </button>
             {showForm && (
-              <div className="fixed top-10 left-0 px-60 w-full h-full flex items-center justify-center bg-opacity-50">
+              <div className="fixed top-6 px-4 lg:top-10 left-0 lg:px-60 w-full h-full flex items-center justify-center bg-opacity-50 ">
                 <form
                   onSubmit={handleSubmit}
-                  className="font-ExtraCondensedBold text-xl p-6 rounded-md w-full bg-DailybiteDarkChocolaty shadow-lg "
+                  className="font-ExtraCondensedBold text-base p-2 lg:text-xl lg:p-6 rounded-md w-full bg-white shadow-lg "
                 >
-                  <div className="mb-4">
-                    <label htmlFor="name" className="block mb-2 text-white">
+                  <div className="mb-2 lg:mb-4">
+                    <label
+                      htmlFor="name"
+                      className="block mb-2 text-DailyBiteDarkChocolaty"
+                    >
                       Name:
                     </label>
                     <input
@@ -183,16 +188,16 @@ const ProductPage = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      className="border rounded-md w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline opacity-50"
+                      className="border rounded-md w-full px-1 lg:py-2 lg:px-3 leading-tight focus:outline-none focus:shadow-outline opacity-50 text-DailyBiteDarkChocolaty"
                       placeholder="Enter your name"
                       required
                     />
                   </div>
                   <div className="columns-2">
-                    <div className="mb-4">
+                    <div className="mb-2 lg:mb-4">
                       <label
                         htmlFor="email"
-                        className="block text-white font-bold mb-2"
+                        className="block text-DailyBiteDarkChocolaty mb-2"
                       >
                         Email
                       </label>
@@ -202,7 +207,7 @@ const ProductPage = () => {
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        className="border rounded-md w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline opacity-50"
+                        className="border rounded-md w-full px-1 lg:py-2 lg:px-3 leading-tight focus:outline-none focus:shadow-outline opacity-50"
                         placeholder="Enter your email"
                         required
                         pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
@@ -210,10 +215,7 @@ const ProductPage = () => {
                       />
                     </div>
                     <div className="mb-4">
-                      <label
-                        htmlFor="mobile"
-                        className="block text-white font-bold mb-2"
-                      >
+                      <label htmlFor="mobile" className="block font-bold mb-2">
                         Mobile No
                       </label>
                       <input
@@ -222,7 +224,7 @@ const ProductPage = () => {
                         name="mobile"
                         value={formData.mobile}
                         onChange={handleChange}
-                        className="border rounded-md w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline opacity-50"
+                        className="border rounded-md w-full px-1 lg:py-2 lg:px-3 leading-tight focus:outline-none focus:shadow-outline opacity-50"
                         placeholder="Enter your mobile number"
                         required
                         pattern="[0-9]{10}"
@@ -234,7 +236,7 @@ const ProductPage = () => {
                     <div className="mb-4">
                       <label
                         htmlFor="deliveryDate"
-                        className="block text-white font-bold mb-2"
+                        className="block font-bold mb-2"
                       >
                         Delivery Date
                       </label>
@@ -244,7 +246,7 @@ const ProductPage = () => {
                         name="Delivery Date"
                         value={formData.deliveryDate}
                         onChange={handleChange}
-                        className="border rounded-md w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline opacity-50"
+                        className="border rounded-md w-full px-1 lg:py-2 lg:px-3 leading-tight focus:outline-none focus:shadow-outline opacity-50"
                         placeholder="Enter your Date"
                         required
                         title="Please enter a date"
@@ -253,7 +255,7 @@ const ProductPage = () => {
                     <div className="mb-4">
                       <label
                         htmlFor="quantity"
-                        className="block text-white font-bold mb-2"
+                        className="block  font-bold mb-2"
                       >
                         Quantity
                       </label>
@@ -263,7 +265,7 @@ const ProductPage = () => {
                         name="quantity"
                         value={formData.quantity}
                         onChange={handleChange}
-                        className="border rounded-md w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline opacity-50"
+                        className="border rounded-md w-full px-1 lg:py-2 lg:px-3 leading-tight focus:outline-none focus:shadow-outline opacity-50"
                         placeholder="Enter your quantity"
                         required
                       />
@@ -271,7 +273,7 @@ const ProductPage = () => {
                     <div className="mb-4">
                       <label
                         htmlFor="deliveryLocation"
-                        className="block text-white font-bold mb-2"
+                        className="block font-bold mb-2"
                       >
                         Delivery Location
                       </label>
@@ -281,7 +283,7 @@ const ProductPage = () => {
                         name="deliveryLocation"
                         value={formData.deliveryLocation}
                         onChange={handleChange}
-                        className="border rounded-md w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline opacity-50"
+                        className="border rounded-md w-full px-1 lg:py-2 lg:px-3  leading-tight focus:outline-none focus:shadow-outline opacity-50"
                         placeholder="Enter your name"
                         required
                       />
@@ -290,7 +292,7 @@ const ProductPage = () => {
                   <div className="mb-4">
                     <label
                       htmlFor="message"
-                      className="block text-white font-bold mb-2"
+                      className="block text-white font-bold lg:mb-2"
                     >
                       Product Description
                     </label>
@@ -299,7 +301,7 @@ const ProductPage = () => {
                       name="message"
                       value={formData.productDescription}
                       onChange={handleChange}
-                      className="border rounded-md w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline h-32 resize-none opacity-50"
+                      className="border rounded-md w-full px-1 lg:py-2 lg:px-3 leading-tight focus:outline-none focus:shadow-outline lg:h-32 resize-none opacity-50"
                       placeholder="Enter your message"
                     />
                   </div>
@@ -323,19 +325,19 @@ const ProductPage = () => {
             )}
             {showThankYou && (
               <div
-                className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50"
+                className="fixed inset-0 flex items-center justify-center bg-opacity-50 z-600"
                 onClick={handleOverlayClick}
               >
-                <div className="bg-white p-8 rounded-lg shadow-md text-center">
-                  <p className="text-8xl font-bold mb-4 font-ExtraCondensedBold">
+                <div className="bg-white p-2 lg:p-8 rounded-lg shadow-md text-center z-900">
+                  <p className="text-2xl mb-2 lg:text-8xl font-bold lg:mb-4 font-ExtraCondensedBold">
                     Thank You!
                   </p>
-                  <p className="font-ExtraCondensedMedium text-3xl leading-10">
+                  <p className="font-ExtraCondensedMedium text-xl leading-6 lg:text-3xl lg:leading-10">
                     Your message has been submitted.
                   </p>
                   <button
                     onClick={closeThankYou}
-                    className="font-ExtraCondensedBold text-3xl bg-mainOrange hover:bg-DailybiteDarkChocolaty text-white  py-2 px-4 rounded mt-4 focus:outline-none focus:shadow-outline"
+                    className="font-ExtraCondensedBold text-xl py-1 px-2 mt-2 lg:text-3xl bg-mainOrange hover:bg-DailybiteDarkChocolaty text-white  lg:py-2 lg:px-4 rounded lg:mt-4 focus:outline-none focus:shadow-outline"
                   >
                     Close
                   </button>

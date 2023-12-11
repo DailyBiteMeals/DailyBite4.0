@@ -160,11 +160,11 @@ const ContactForm = () => {
       </div>
       {showThankYou && (
         <div
-          className="fixed inset-0 flex items-center justify-center bg-opacity-50"
+          className="w-full fixed inset-0 flex items-center justify-center bg-opacity-50 "
           onClick={handleOverlayClick}
         >
-          <div className="bg-white p-8 lg:p-8 rounded-lg shadow-md text-center">
-            <p className="text-6xl mb-2lg:text-8xl lg:mb-4 font-ExtraCondensedBold">
+          <div className="bg-white p-4 lg:p-8 rounded-lg shadow-md text-center">
+            <p className="text-6xl mb-2 lg:text-8xl lg:mb-4 font-ExtraCondensedBold">
               Thank You!
             </p>
             <p className="font-ExtraCondensedMedium text-xl leading-8 lg:text-3xl lg:leading-10">

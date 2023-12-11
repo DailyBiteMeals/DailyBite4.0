@@ -13,10 +13,10 @@ import Facebook from "../../assets/icons/FacebookIcon.png";
 import COntactInfo from "../../assets/ContactInfo.jpg";
 const Contact = () => {
   return (
-    <div className="max-w-8xl mx-auto my-10 bg-white p-8 flex justify-center items-center space-x-8 mx-8 p-6">
+    <div className="flex flex-col lg:flex-row justify-center items-center max-w-8xl mx-auto my-5 lg:my-10 bg-white p-4 lg:p-8 space-x-4 lg:space-x-8 mx-4 lg:mx-8 p-3 lg:p-6">
       {/* Left Column */}
-      <div className="bg-gray-200 p-4 rounded-lg flex flex-col items-start font-ExtraCondensedMedium text-3xl">
-        <h2 className="text-4xl font-ExtraCondensedBold text-mainOrange">
+      <div className="bg-gray-200 p-2 lg:p-4 rounded-lg flex flex-col items-start font-ExtraCondensedMedium text-3xl">
+        <h2 className="text-4xl lg:text-4xl font-ExtraCondensedBold text-mainOrange">
           Contact Information
         </h2>
         <div className="flex items-center space-x-2 mt-2">
@@ -25,8 +25,8 @@ const Contact = () => {
           </div>
           <p>+91 86602 03805</p>
         </div>
-        <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-gray-500 rounded-full">
+        <div className="flex items-center space-x-2 mt-2">
+          <div className="w-8 h-8 lg:w-8 lg:h-8 bg-gray-500 rounded-full">
             <img src={Location} alt="" srcset="" />
           </div>
           <p>
@@ -34,13 +34,13 @@ const Contact = () => {
             HSR Layout, Bengaluru, <br></br>Karnataka 560102
           </p>
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 mt-2">
           <div className="w-8 h-8 bg-gray-500 rounded-full">
             <img src={WhatsAppIcon} alt="" srcset="" />
           </div>
           <p>+91 86602 03805</p>
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 mt-2">
           <div className="w-8 h-8 bg-gray-500 rounded-full">
             <img src={EmailIcon} alt="" />
           </div>
@@ -57,7 +57,7 @@ const Contact = () => {
             <img
               src={LinkedIn}
               alt="LinkedIn"
-              className="w-10 h-10 sepia invert brightness-0"
+              className="w-8 h-8 lg:w-10 lg:h-10 "
             />
           </a>
           <a
@@ -68,7 +68,7 @@ const Contact = () => {
             <img
               src={Instagram}
               alt="Instagram"
-              className="w-10 h-10 sepia invert brightness-0"
+              className="w-8 h-8 lg:w-10 lg:h-10 "
             />
           </a>
           <a
@@ -79,7 +79,7 @@ const Contact = () => {
             <img
               src={Youtube}
               alt="Youtube"
-              className="w-10 h-10 sepia invert brightness-0"
+              className="w-8 h-8 lg:w-10 lg:h-10 "
             />
           </a>
           <a
@@ -90,7 +90,7 @@ const Contact = () => {
             <img
               src={Twitter}
               alt="Twitter"
-              className="w-10 h-10 sepia invert brightness-0"
+              className="w-8 h-8 lg:w-10 lg:h-10 "
             />
           </a>
           <a
@@ -101,14 +101,14 @@ const Contact = () => {
             <img
               src={Facebook}
               alt="Facebook"
-              className="w-10 h-10 sepia invert brightness-0"
+              className="w-8 h-8 lg:w-10 lg:h-10 "
             />
           </a>
         </div>
       </div>
 
       {/* Right Column */}
-      <div className="w-1/2 flex flex-col items-center">
+      <div className="w-full lg:w-1/2 flex flex-col items-center">
         <img
           src={COntactInfo}
           alt="Image"

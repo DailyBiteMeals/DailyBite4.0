@@ -2,12 +2,12 @@ import React from "react";
 
 const AboutInfo = () => {
   return (
-    <div className="flex flex-col items-center justify-center px-20">
-      <h1 className="text-4xl font-ExtraCondensedBlack text-center">
+    <div className="flex flex-col items-center justify-center px-4 lg:px-20">
+      <h1 className="text-2xl lg:text-4xl font-ExtraCondensedBlack text-center uppercase">
         All-In-One{""}
         <span className="text-mainOrange">Corporate Food</span> Partner
       </h1>
-      <p className="text-center font-InterRegular text-xl ">
+      <p className="text-center font-InterRegular text-xs lg:text-xl lg:leading-6">
         DailyBite is a FoodTech partner that provides end-to-end corporate food
         solutions for companies. From daily meals to special events, we cater to
         all your food requirements throughout the year. Our diverse services

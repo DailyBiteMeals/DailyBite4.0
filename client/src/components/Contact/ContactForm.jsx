@@ -68,26 +68,23 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <div className="max-w-8xl mx-auto my-10 bg-white rounded-lg shadow-lg px-20 flex">
+    <div className="flex flex-col lg:flex-row max-w-8xl mx-auto my-10 bg-white rounded-lg shadow-lg px-4 lg:px-20">
       {/* Image column */}
-      <div className="w-1/2">
+      <div className="w-full lg:w-1/2">
         <img src={Contact} alt="Placeholder Image" className="rounded-lg " />
       </div>
 
       {/* Contact form column */}
-      <div className="w-1/2 p-4">
-        <h1 className="text-6xl mb-4 font-ExtraCondensedBlack uppercase text-mainOrange leading-12">
+      <div className="w-full p-2 lg:w-1/2 lg:p-4">
+        <h1 className="text-4xl leading-8 lg:text-6xl lg:mb-4 font-ExtraCondensedBlack uppercase text-mainOrange lg:leading-12">
           Contact Us
         </h1>
         <form
           onSubmit={handleSubmit}
-          className="font-ExtraCondensedBold text-xl"
+          className="font-ExtraCondensedBold text-xl lg:text-xl"
         >
-          <div className="mb-4">
-            <label
-              htmlFor="name"
-              className="block text-gray-700 font-bold mb-2"
-            >
+          <div className="mb-2 lg:mb-4">
+            <label htmlFor="name" className="block lg:mb-2">
               Name
             </label>
             <input

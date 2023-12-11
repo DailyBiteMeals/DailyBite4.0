@@ -12,8 +12,8 @@ import deliveryBoy from "../../assets/Features/DailyBiteDeliveryBoy.png";
 
 const Features = () => {
   return (
-    <div className="flex flex-wrap justify-between justify-items-center lg:px-20 lg:py-20 ">
-      <div className="flex-1 flex flex-col lg:flex-col items-center lg:items-left">
+    <div className="flex flex-wrap justify-items-center px-4 py-4 lg:px-20 lg:py-20 ">
+      <div className="flex-1 flex flex-col lg:flex-col justify-center items-center lg:items-left">
         <Feature
           iconBgColor="bg-gray-300"
           icon={onClick}
@@ -76,7 +76,7 @@ const Feature = ({ iconBgColor, icon, title, subtitle }) => {
           className="feature-icon w-20 h-20 lg:w-20 lg:h-20"
         />
 
-        <div className="flex flex-col pl-4 lg:pl-8">
+        <div className="flex flex-col lg:pl-8">
           <h2 className="text-2xl text-center leading-5 pt-2 lg:text-left lg:text-4xl font-ExtraCondensedBold text-mainOrange lg:w-80">
             {title}
           </h2>

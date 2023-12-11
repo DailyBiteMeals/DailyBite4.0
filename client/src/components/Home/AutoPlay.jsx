@@ -7,11 +7,11 @@ import "slick-carousel/slick/slick-theme.css";
 import volt from "../../assets/Logo/CustomerLogo/Volt.png";
 import Insnap from "../../assets/Logo/CustomerLogo/Insnap.png";
 import BoltEarth from "../../assets/Logo/CustomerLogo/BoltEarth.png";
-import Practo from "../../assets/Logo/CustomerLogo/practo.png";
+import Practo from "../../assets/Logo/CustomerLogo/Practo.png";
 import Clayworks from "../../assets/Logo/CustomerLogo/Clayworks.png";
 import Keploy from "../../assets/Logo/CustomerLogo/Keploy.png";
-import Trigsy from "../../assets/Logo/CustomerLogo/trigsy.png";
-import Nasscom from "../../assets/Logo/CustomerLogo/Nasscom.png";
+import Trigsy from "../../assets/Logo/CustomerLogo/Trigsy.png";
+import Nasscom from "../../assets/Logo/CustomerLogo/Nasccom.png";
 import Fampay from "../../assets/Logo/CustomerLogo/Fampay.png";
 import newtral from "../../assets/Logo/CustomerLogo/Newtral.png";
 
@@ -54,7 +54,7 @@ export default class autoplay extends Component {
               <img
                 src={image.src}
                 alt={`Image ${index + 1}`}
-                className="w-60 px-8 py-4 lg:w-full lg:p-10"
+                className="w-48 px-2 py-2 p-5 lg:w-96 lg:px-4 lg:py-4 lg:p-10"
               />
             </div>
           ))}

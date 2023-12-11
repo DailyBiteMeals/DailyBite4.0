@@ -18,9 +18,9 @@ function LandingPage() {
           </p>
           <Link
             to="/contact"
-            className="flex items-center pl-20 mt-6 pb-10 lg:pl-20 lg:mt-6 lg:items-center"
+            className="flex items-center pl-20 mt-3 pb-5 lg:pl-20 lg:mt-6 lg:pb-10 items-center"
           >
-            <button className="bg-DailybiteDarkChocolaty flex items-center rounded-md px-12 py-2 lg:items-center lg:rounded-md lg:px-12  lg:py-2">
+            <button className="bg-DailybiteDarkChocolaty flex items-center rounded-md px-12 py-2 lg:items-center lg:rounded-md lg:px-12 lg:py-2">
               <p className=" font-InterMedium text-lg lg:text-2xl">
                 Order Trial
               </p>
