@@ -1,4 +1,4 @@
-import StandardChiken from "../../assets/Meals/PrivilegeCHikenMeal.jpg";
+// import StandardChiken from "../../assets/Meals/PrivilegeCHikenMeal.jpg";
 
 // Categories imports
 import PrivilegeCategory from "../../assets/Home-products/Privilege-meal.png";
@@ -6,8 +6,8 @@ import DailySnacksCategory from "../../assets/Home-products/on-demand-snacks.png
 import HealthySnacks from "../../assets/Home-products/fruit-bowl-dry-fruits.png";
 import CateringCategory from "../../assets/Home-products/catering-service.png";
 // Meals imported
-import PrivillegeVegMeal from "../../assets/Meals/PrivilegeVegMeal.jpg";
-import PrivillegeNonVegMeal from "../../assets/Meals/PrivilegeChikenMeal.jpg";
+import PrivilegeVegMeal from "../../assets/Meals/PrivilegeVegMeal.jpg";
+import PrivilegeNonVegMeal from "../../assets/Meals/PrivilegeChikenMeal.jpg";
 import PrivilegeEggMeal from "../../assets/Meals/PrivilegeEggMeal.jpg";
 import StandardVegMeal from "../../assets/Meals/StanadrdVegMeal.jpg";
 import StandardNonVegMeal from "../../assets/Meals/StandardChikenMeal.jpg";
@@ -67,8 +67,8 @@ export const initialProducts = [
       "Rice + Dal + 2 Roti + Gravy Sabji + Dry Sabji + Salad + Sweet + Curd + Papad/ Pickle/New Addon",
     description:
       "Experience a variety of gravy dishes, dry dishes and rice every single day. Designed to provide all required nutritional values. It includes nine items - Dal, Rice, Roti, Dry Subji, Gravy Subji, Salad, Curd, Sweet, and either Pickle or Papad, giving you the perfect veg meal experience.",
-    image: PrivillegeVegMeal,
-    images: [PrivillegeVegMeal],
+    image: PrivilegeVegMeal,
+    images: [PrivilegeVegMeal],
     category: "Daily Meals",
   },
   {
@@ -78,8 +78,8 @@ export const initialProducts = [
       "Rice + Dal + 2 Roti + Chicken Curry + Dry Sabji + Salad + Sweet + Curd + Papad/ Pickle/New Addon",
     description:
       "Experience a variety of chicken dishes including Chicken Curry, Chicken Hydrabadi, Butter Chicken, Kadai Chicken and more.  It includes nine items - Dal, Rice, Roti, Dry Subji, Chicken Dish, Salad, Curd, Sweet, and either Pickle or Papad, giving you the perfect chicken meal experience.",
-    image: PrivillegeNonVegMeal,
-    images: [PrivillegeNonVegMeal],
+    image: PrivilegeNonVegMeal,
+    images: [PrivilegeNonVegMeal],
     category: "Daily Meals",
   },
   {
